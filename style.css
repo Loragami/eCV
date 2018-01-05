@@ -150,6 +150,10 @@ nav li a{
   75%{ color: #F4A460; height: 25%; }
   100%{ color: #E2BC74; height:0%; }
 }
+#form{
+  margin-left: 200px;
+  margin-top: -110px;
+}
 .b{
   font-weight: bold;
   color:#2E006C;
@@ -187,6 +191,17 @@ nav li a{
 .banane1{
   margin-top: 450px;
   margin-bottom: 130px;
+}
+.bord{
+  height: 1420px;
+  width: 940px;
+  margin-left: -63px;
+}
+.bordel{
+  z-index:2;
+  position: absolute;
+  margin-top: -1335px;
+  margin-left: 22px;
 }
 .logo p{
   display: flex;
