@@ -39,7 +39,6 @@ header.main-container {
   height: 100vh;
 }
 .title{
-  border: solid transparent 1px;
   position: absolute;
   margin: -100px;
   margin-left: 50px;
@@ -82,23 +81,30 @@ p#left{
   display: flex;
   flex-direction: column;
 }
-h2, h1{
-  font-family: samantha;
+.p1p2{
+  display: flex;
+}
+.p1{
+  flex-direction: column;
+  flex-basis: 50%;
+  margin-top:-290px;
+  margin-left: 20px;
+  margin-bottom: 100px;
+}
+.p2{
+  flex-direction: column;
+  flex-basis: 50%;
+  font-size: 50px;
+  margin-left: 150px;
+  margin-top: -240px;
+  margin-bottom: 100px;
+}
+h2{
+  font-family: Samantha;
   color:#2E006C;
   font-size: 60px;
-  margin-top: 320px;
   margin-left: 70px;
   margin-bottom: 30px;
-}
-.banane{
-  margin-bottom: 130px;
-  margin-top: 340px;
-  z-index: 2;
-}
-.top{
-  margin-top: -350px;
-  margin-bottom: 100px;
-
 }
 nav ul{
   display: flex;
@@ -125,15 +131,32 @@ nav li a{
   position: absolute;
   font-size: 40px;
 }
-.container {
-  width: 100%;
-  height: 30px;
-  margin-left: 70px;
-}
 .progress {
   animation: back2 linear 5s infinite;
+  margin-left: 70px;
 }
-
+#bana{
+  margin-top: 340px;
+  margin-bottom:270px;
+}
+#P{
+  margin-bottom: -30px;
+}
+#F{
+  margin-bottom: 360px;
+}
+#L{
+  margin-bottom: 420px;
+}
+#E{
+  margin-bottom: 250px;
+}
+#C1{
+  margin-bottom: 350px;
+}
+#C{
+ margin-bottom: 100px;
+}
 @keyframes back
 {
   0%{ background-color: #E2BC74; height: 0%; }
@@ -187,10 +210,6 @@ nav li a{
 }
 .onebox{
   flex-direction: column;
-}
-.banane1{
-  margin-top: 450px;
-  margin-bottom: 130px;
 }
 .bord{
   height: 1420px;
