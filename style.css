@@ -136,7 +136,7 @@ nav li a{
   margin-left: 70px;
 }
 #bana{
-  margin-top: 340px;
+  margin-top: 235px;
   margin-bottom:270px;
 }
 #P{
@@ -155,8 +155,12 @@ nav li a{
   margin-bottom: 350px;
 }
 #C{
- margin-bottom: 100px;
+ margin-bottom: 1500px;
 }
+#C p{
+ text-align: center;
+}
+
 @keyframes back
 {
   0%{ background-color: #E2BC74; height: 0%; }
@@ -176,6 +180,7 @@ nav li a{
 #form{
   margin-left: 200px;
   margin-top: -110px;
+  position: absolute;
 }
 .b{
   font-weight: bold;
@@ -190,37 +195,27 @@ nav li a{
 .size{
   font-size: 30px;
   margin-left: 70px;
-
-}
-.section3{
-  display: flex;
-  align-items: flex-end;
-  margin-bottom: 100px;
-  flex-wrap: wrap;
-  margin: 50px;
-}
- .section3 p{
-   flex-direction: row;
-   border: transparant;
-   margin-top: 100px;
-}
-.section3 h1{
-  border: transparant;
-  margin-top: 100px;
-}
-.onebox{
-  flex-direction: column;
 }
 .bord{
   height: 1420px;
   width: 940px;
-  margin-left: -63px;
+  margin-left: -58px;
+  position: absolute;
+  z-index:2;
 }
 .bordel{
   z-index:2;
   position: absolute;
-  margin-top: -1335px;
+  margin-top: 90px;
   margin-left: 22px;
+  position: absolute;
+}
+.cam{
+  z-index: 1;
+  margin-bottom: -980px;
+  position: sticky;
+  width:1200px;
+  margin-left: -200px;
 }
 .logo p{
   display: flex;
@@ -229,4 +224,4 @@ nav li a{
 }
  footer p{
   text-align: center;
- }
+}
