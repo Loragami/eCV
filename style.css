@@ -5,7 +5,7 @@
 }
 @font-face {
  font-family: 'Samantha';
- src: url('Samantha.ttf');
+ src: url('Samantha.ttf');/*parti prit*/
 }
 body{
  width: 90%;
@@ -14,7 +14,7 @@ body{
  background-image: url("journal-1577764_960_720.png");
  background-repeat:repeat;
  background-size: contain;
- font-family: Samantha;
+ font-family: Samantha;/*certes bien peu lisible et sans accents mais...tout le margin est fait en fonction yeah!*/
  animation: back linear 5s infinite;
  overflow-x: hidden;
 }
@@ -29,7 +29,7 @@ h1{
   margin-left: 70px;
 }
 header.main-container {
-  background-image: url("7R942oM.jpg");
+  background-image: url("7R942oM.jpg");/*Ode à la kitschittude wink*/
   z-index:1;
   background-repeat: no-repeat;
   background-size: cover;
@@ -234,4 +234,40 @@ nav li a{
 }
  footer p{
   text-align: center;
+}
+@media (min-width: 600px) and (max-width: 900px){
+  nav {
+       flex-direction: column;
+       display: block;
+     }
+  body{
+    background-size: contain;
+  }
+  .logo{
+    display: flex;
+    flex-direction: column;
+    height:100%;
+
+  }
+  header.main-container{
+    width: inherit;
+  }
+}
+@media (max-width: 600px){
+ header.main-container{
+  width: inherit;
+ }
+ nav ul {
+  display: none;
+ }
+ body {
+  background: none;
+ }
+.logo{
+  display: flex;
+  flex-direction: column;
+ }
+ #form{
+  display: none;
+ }
 }
