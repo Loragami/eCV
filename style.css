@@ -16,6 +16,7 @@ body{
  background-size: contain;
  font-family: Samantha;
  animation: back linear 5s infinite;
+ overflow-x: hidden;
 }
 p{
   font-size: 50px;
@@ -29,10 +30,19 @@ h1{
 }
 header.main-container {
   background-image: url("7R942oM.jpg");
+  z-index:1;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
   width : 100vw;
+}
+.backupt{
+  z-index: 2;
+  margin-top: -2px;
+  position: sticky;
+  height: 35px;
+  margin-top: -450px;
+  padding-top: 0;
 }
 .main-container img {
   width: 100vw;
@@ -136,7 +146,7 @@ nav li a{
   margin-left: 70px;
 }
 #bana{
-  margin-top: 235px;
+  margin-top: 145px;
   margin-bottom:270px;
 }
 #P{
@@ -146,7 +156,7 @@ nav li a{
   margin-bottom: 360px;
 }
 #L{
-  margin-bottom: 420px;
+  margin-bottom: 422px;
 }
 #E{
   margin-bottom: 250px;
@@ -179,7 +189,7 @@ nav li a{
 }
 #form{
   margin-left: 200px;
-  margin-top: -110px;
+  margin-top: -125px;
   position: absolute;
 }
 .b{
@@ -206,8 +216,8 @@ nav li a{
 .bordel{
   z-index:2;
   position: absolute;
-  margin-top: 90px;
-  margin-left: 22px;
+  margin-top: 70px;
+  margin-left: 32px;
   position: absolute;
 }
 .cam{
