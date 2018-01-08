@@ -4,6 +4,9 @@
 nav ul li{
   display: none;
 }
+.main-container{
+  background: none;
+}
 body{
   background: none;
   background-color :#fff;
