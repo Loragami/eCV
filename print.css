@@ -7,6 +7,12 @@ nav ul li{
 .main-container{
   background: none;
 }
+.p1p2{
+  text-align:justify;
+  margin:2pt 1pt 6pt 0;
+  font-size:12pt;
+  color:#000;
+}
 body{
   background: none;
   background-color :#fff;
