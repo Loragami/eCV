@@ -7,30 +7,33 @@
  font-family: 'Samantha';
  src: url('Samantha.ttf');/*parti prit*/
 }
+@font-face {
+ font-family: 'DACTYLOG';
+ src: url('DACTYLOG.ttf');
+}
 body{
  width: 90%;
  margin-left; auto;
  margin-right; auto;
- background-image: url("journal-1577764_960_720.png");
+ background-image: url("journal-1577764_960_720.png"), url("416549_kozha_zoloto_blesk_treshhiny_tekstura_1680x1050_www.Gde-Fon.com.jpg");
  background-repeat:repeat;
  background-size: contain;
- font-family: Samantha;/*certes bien peu lisible et sans accents mais...tout le margin est fait en fonction yeah!*/
- animation: back linear 5s infinite;
  overflow-x: hidden;
+ font-family: DACTYLOG;
 }
 p{
-  font-size: 50px;
   margin-left: 70px;
   margin-top: 50px;
+  font-size: 2em;
 }
 h1{
   font-size: 70px;
   font-weight: normal;
   margin-left: 70px;
+  font-family: Samantha;
 }
 header.main-container {
-  background-image: url("7R942oM.jpg");/*Ode à la kitschittude wink*/
-  z-index:1;
+  background-image: url("Cw-0wITWIAAWIzq.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -57,11 +60,6 @@ header.main-container {
   border-radius: 2px;
   font-weight: normal;
 }
-.title3{
-  margin: -100px;
-  margin-left: 600px;
-  margin-top: 200px;
-}
 p#left{
   margin-right: 20px;
   margin-top: 30px;
@@ -82,6 +80,50 @@ p#left{
 }
 .pos{
   margin-left: 20px;
+}
+.postit{
+  display: flex;
+}
+.postit2{
+  display: flex;
+}
+.postit img{
+  flex-direction: inline;
+  height: 200px;
+  width: 200px;
+  margin-left: 200px;
+  margin-bottom: 40px;
+}
+.postit p{
+  flex-direction: inline;
+  height: 200px;
+  width: 200px;
+  margin-left: 200px;
+  margin-bottom: 40px;
+  z-index: 2;
+  position: absolute;
+}
+.postit2 img{
+  flex-wrap: wrap;
+  height: 200px;
+  width: 200px;
+  margin-left: 200px;
+}
+.postit2 p{
+  flex-wrap: wrap;
+  height: 200px;
+  width: 200px;
+  margin-left: 200px;
+  z-index:2;
+  position: absolute;
+}
+.paper{
+  margin-top: -670px;
+  margin-left: 760px;
+  margin-bottom: 800px;
+}
+.right{
+  margin-left: 150px;
 }
 .flex{
   display: flex;
@@ -108,6 +150,7 @@ p#left{
   margin-left: 150px;
   margin-top: -240px;
   margin-bottom: 100px;
+  font-size: 2em;
 }
 h2{
   font-family: Samantha;
@@ -139,45 +182,47 @@ nav li a{
   padding: 8px 32px;
   display:block;
   position: absolute;
-  font-size: 40px;
+  font-size: 20px;
 }
 .progress {
-  animation: back2 linear 5s infinite;
+  animation: back2 linear 10s infinite;
   margin-left: 70px;
 }
+.progressa{
+  animation: back2 linear 10s infinite;
+  margin-left: 700px !important;
+  position: absolute;
+  z-index:2;
+}
 #bana{
-  margin-top: 145px;
-  margin-bottom:270px;
+  margin-top: 260px;
+  margin-bottom:360px;
 }
 #P{
-  margin-bottom: -30px;
+  margin-bottom: 80px;
 }
 #F{
   margin-bottom: 360px;
 }
 #L{
-  margin-bottom: 422px;
+  margin-bottom: 150px;
+  margin-top: -190px;
+}
+#L img{
+  margin-left: 360px;
+  margin-top: -150px;
 }
 #E{
-  margin-bottom: 250px;
+  margin-bottom: 300px;
 }
 #C1{
-  margin-bottom: 350px;
+  margin-bottom: 240px;
 }
 #C{
  margin-bottom: 1500px;
 }
 #C p{
  text-align: center;
-}
-
-@keyframes back
-{
-  0%{ background-color: #E2BC74; height: 0%; }
-  25%{ background-color: #F4A460; height: 25%; }
-  50%{ background-color: #FF7F50; height: 50%; }
-  75%{ background-color: #4B0082; height: 75%; }
-  100%{ background-color: #2E006C; height: 100%; }
 }
 @keyframes back2
 {
@@ -222,36 +267,73 @@ nav li a{
 }
 .cam{
   z-index: 1;
-  margin-bottom: -980px;
+  margin-bottom: -1010px;
   position: sticky;
   width:1200px;
   margin-left: -200px;
 }
-.logo p{
+.logo{
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  position: absolute;
+  z-index: 2;
+  margin-left: 290px;
+  margin-top: -350px;
+  padding: 10px;
+}
+.space{
+  margin: 210px;
+}
+.anima{
+  display: flex;
+  position: absolute;
+  z-index: 2;
+  margin-left: -250px;
+  margin-top: -350px;
+}
+.anima1{
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  z-index: 2;
+  margin-left: -200px;
+  margin-left: -180px;
+  margin-top: -210px;
+}
+.anim{
+ margin: -230px;
+ margin-top: -75px;
+}
+#polaroid{
+  margin-left:-290px;
+  margin-bottom:200px;
+  margin-top: -270px;
 }
  footer p{
   text-align: center;
 }
+.footer{
+  margin-left: 200px;
+  margin-top: -100px;
+  margin-bottom: -140px;
+}
 @media (min-width: 600px) and (max-width: 900px){
-  nav {
-       flex-direction: column;
-       display: block;
-     }
-  body{
-    background-size: contain;
-  }
-  .logo{
-    display: flex;
-    flex-direction: column;
-    height:100%;
-
-  }
-  header.main-container{
-    width: inherit;
-  }
+nav{
+  flex-direction: column;
+  display: block;
+}
+body{
+  background-size: contain;
+}
+.logo{
+ display: flex;
+ flex-direction: column;
+ position: absolute;
+ padding: 200px;
+}
+header.main-container{
+ width: inherit;
+}
 }
 @media (max-width: 600px){
  header.main-container{
@@ -266,7 +348,7 @@ nav li a{
 .logo{
   display: flex;
   flex-direction: column;
- }
+}
  #form{
   display: none;
  }

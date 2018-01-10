@@ -1,0 +1,17 @@
+@keyframes back
+{
+  0%{ background-color: #E2BC74; height: 0%; }
+  25%{ background-color: #F4A460; height: 25%; }
+  50%{ background-color: #FF7F50; height: 50%; }
+  75%{ background-color: #4B0082; height: 75%; }
+  100%{ background-color: #2E006C; height: 100%; }
+}
+
+@keyframes back
+{
+  0%{ background-color: #E2BC74; height: 0%; }
+  25%{ background-color: #F4A460; height: 25%; }
+  50%{ background-color: #FF7F50; height: 50%; }
+  75%{ background-color: #4B0082; height: 75%; }
+  100%{ background-color: #2E006C; height: 100%; }
+}
