@@ -113,7 +113,7 @@ p#left{
   flex-wrap: wrap;
   height: 200px;
   width: 200px;
-  margin-left: 200px;
+  margin-left: 210px;
   z-index:2;
   position: absolute;
 }
