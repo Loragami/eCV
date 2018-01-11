@@ -38,6 +38,7 @@ header.main-container {
   background-size: cover;
   height: 100vh;
   width : 100vw;
+  margin: 0;
 }
 .main-container img {
   width: 100vw;
@@ -159,20 +160,24 @@ h2{
   margin-left: 70px;
   margin-bottom: 30px;
 }
+nav{
+  position: fixed;
+}
 nav ul{
   display: flex;
-  padding: 0;
-  margin: 0;
 }
 nav>ul>li{
   display:inline;
-  width:100%;
-  height: 7vh;
-  margin-left: 90px;
-  margin-top: -100px;
+  width: 200px;
+  margin-left: 0;
+  margin-top: -40px;
+  background-image: url('cache.png');
+  background-size: contain;
+  border: 10px solid transparent;
+  z-index: 2 !important;
 }
 nav ul li a:hover{
-  background-color:#FBF2B7;
+  color:#FBF2B7;
   border-radius: 2px;
 }
 nav li a{
@@ -180,8 +185,9 @@ nav li a{
   color:#BA3B3E;
   text-align: center;
   display:block;
-  position: absolute;
   font-size: 20px;
+
+
 }
 .progress {
   animation: back2 linear 10s infinite;
@@ -194,7 +200,7 @@ nav li a{
   z-index:2;
 }
 #bana{
-  margin-top: 260px;
+  margin-top: 197px;
   margin-bottom:380px;
 }
 #P{
