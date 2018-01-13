@@ -1,0 +1,33 @@
+@media all and (max-width: 1024px){
+header.main-container{
+  background-size: contain;
+
+}
+body{
+  background-position: fixed;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+nav ul li{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+ #C{
+  display: none;
+}
+@media screen and (min-width: 600px) {
+  nav {
+     display: block;
+   }
+   main {
+    flex-grow: 1;
+  }
+}
+@media screen and (min-width: 900px) {
+  nav > ul > li {
+    display: inline-block;
+  }
+}
+
+}

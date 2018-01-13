@@ -7,12 +7,12 @@
  font-family: 'Samantha';
  src: url('Samantha.ttf');/*parti prit*/
 }
-@font-face {
+/* @font-face {
  font-family: 'DACTYLOG';
  src: url('DACTYLOG.ttf');
-}
+} */
 body{
- width: 90%;
+ width: 100%;
  margin-left; auto;
  margin-right; auto;
  background-image: url("journal-1577764_960_720.png"), url("416549_kozha_zoloto_blesk_treshhiny_tekstura_1680x1050_www.Gde-Fon.com.jpg");
@@ -20,6 +20,8 @@ body{
  background-size: contain;
  overflow-x: hidden !important;
  font-family: DACTYLOG;
+ color:#2F1B0C;
+ font-size: 15px;
 }
 p{
   margin-left: 70px;
@@ -31,6 +33,13 @@ h1{
   font-weight: normal;
   margin-left: 70px;
   font-family: Samantha;
+}
+h2{
+  font-family: Samantha;
+  color:#8B4513;
+  font-size: 60px;
+  margin-left: 70px;
+  margin-bottom: 30px;
 }
 header.main-container {
   background-image: url("Cw-0wITWIAAWIzq.jpg");
@@ -48,27 +57,31 @@ header.main-container {
   position: absolute;
   margin: -100px;
   margin-left: 830px;
-  margin-top: -200px;
+  margin-top: -240px;
   color:#FBF2B7;
-  border-radius: 2px;
   font-weight: normal;
+  /* transform: translateX(20px); */
+}
+.title:hover{
+  transform: rotate(-45deg);
 }
 p#left{
-  margin-right: 20px;
-  margin-top: 30px;
+  margin-left: 700px;
+  margin-top: -120px;
 }
 .title3{
   z-index:2;
   position: absolute;
-  margin-left: 450px;
+  margin-left: 650px;
   margin-right:150px;
   margin-top:-450px;
+  height: 250px;
 }
 .title3bis{
-  height:550px;
+  height:300px;
   z-index:0;
-  margin-left:650px;
-  margin-top:-480px;
+  margin-left:750px;
+  margin-top:-475px;
   position: absolute;
 }
 .pos{
@@ -91,7 +104,7 @@ p#left{
   flex-direction: inline;
   height: 200px;
   width: 200px;
-  margin-left: 230px;
+  margin-left: 240px;
   margin-bottom: 40px;
   z-index: 2;
   position: absolute;
@@ -106,7 +119,7 @@ p#left{
   flex-wrap: wrap;
   height: 200px;
   width: 200px;
-  margin-left: 230px;
+  margin-left: 240px;
   z-index:2;
   position: absolute;
 }
@@ -116,17 +129,19 @@ p#left{
   margin-bottom: 800px;
 }
 .right p{
-  margin-left: 230px;
+  margin-left: 240px;
   margin-bottom:-110px;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 .flex{
   display: flex;
   flex-direction: column;
+  margin-top: -50px;
 }
 .flex1{
   display: flex;
   flex-direction: column;
+  margin-top: 90px;
 }
 .p1p2{
   display: flex;
@@ -134,7 +149,7 @@ p#left{
 .p1{
   flex-direction: column;
   flex-basis: 50%;
-  margin-top:-290px;
+  margin-top:-240px;
   margin-left: 20px;
   margin-bottom: 100px;
 }
@@ -149,17 +164,10 @@ p#left{
   flex-direction: column;
   flex-basis: 50%;
   font-size: 50px;
-  margin-left: 150px;
-  margin-top: -240px;
+  margin-left: 70px;
+  margin-top: -190px;
   margin-bottom: 100px;
   font-size: 2em;
-}
-h2{
-  font-family: Samantha;
-  color:#2E006C;
-  font-size: 60px;
-  margin-left: 70px;
-  margin-bottom: 30px;
 }
 nav{
   position: fixed;
@@ -173,13 +181,20 @@ nav>ul>li{
   width: 200px;
   margin-left: 0;
   margin-top: -40px;
-  background-image: url('cache.png');
-  background-size: cover;
+  background-color: #FFFAF0;
+  /* background-size: cover; */
   border: 10px solid transparent;
 }
 nav ul li a:hover{
-  color:	#CD5C5C;
+  color:#FFFAF0;
   border-radius: 2px;
+  font-weight: bold;
+  background-image: url('Carte_de_Coeur_KHREC.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+nav ul li:hover{
+  background-color: #6E0B14;
 }
 nav li a{
   text-decoration: none;
@@ -187,8 +202,6 @@ nav li a{
   text-align: center;
   display:block;
   font-size: 20px;
-
-
 }
 .progress {
   animation: back2 linear 10s infinite;
@@ -202,10 +215,10 @@ nav li a{
 }
 #bana{
   margin-top: 197px;
-  margin-bottom:380px;
+  margin-bottom:340px;
 }
 #P{
-  margin-bottom: 80px;
+  margin-bottom: 130px;
 }
 #F{
   margin-bottom: 130px;
@@ -219,7 +232,7 @@ nav li a{
   margin-top: -150px;
 }
 #E{
-  margin-bottom: 300px;
+  margin-bottom: 320px;
 }
 #C1{
   margin-bottom: 240px;
@@ -232,30 +245,26 @@ nav li a{
 }
 @keyframes back2
 {
-  0%{ color: #2E006C; height: 100%; }
-  25%{ color: #4B0082; height: 75%; }
-  50%{ color: #FF7F50; height: 50%; }
-  75%{ color: #F4A460; height: 25%; }
-  100%{ color: #E2BC74; height:0%; }
+  0%{ color:#91283B; height: 100%; }
+  25%{ color:#6B0D0D; height: 75%; }
+  50%{ color: #730800; height: 50%; }
+  75%{ color: #850606; height: 25%; }
+  100%{ color:#AC1E44; height:0%; }
 }
 #form{
   margin-left: 200px;
   margin-top: -125px;
   position: absolute;
 }
-.b{
-  font-weight: bold;
-  color:#2E006C;
-  margin-left: 80px;
-}
 .b li{
   font-weight: bold;
-  color:#2E006C;
+  color:#6D071A;
   font-size: 20px;
+  margin-left: 80px;
 }
 .size{
   font-size: 30px;
-  margin-left: 70px;
+  margin-left: 60px;
 }
 .bord{
   height: 1200px;
@@ -329,40 +338,4 @@ iframe{
   margin-left: 200px;
   margin-top: -100px;
   margin-bottom: -140px;
-}
-@media (min-width: 600px) and (max-width: 900px){
-nav{
-  flex-direction: column;
-  display: block;
-}
-body{
-  background-size: contain;
-}
-.logo{
- display: flex;
- flex-direction: column;
- position: absolute;
- padding: 200px;
-}
-header.main-container{
- width: inherit;
-}
-}
-@media (max-width: 600px){
- header.main-container{
-  width: inherit;
- }
- nav ul {
-  display: none;
- }
- body {
-  background: none;
- }
-.logo{
-  display: flex;
-  flex-direction: column;
-}
- #form{
-  display: none;
- }
 }
