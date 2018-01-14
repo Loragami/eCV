@@ -1,33 +1,43 @@
-@media all and (max-width: 1024px){
-header.main-container{
-  background-size: contain;
 
-}
-body{
-  background-position: fixed;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-nav ul li{
-  position: relative;
-  display: flex;
-  flex-direction: column;
-}
- #C{
-  display: none;
-}
-@media screen and (min-width: 600px) {
+/* @media screen and (min-width: 600px) {
   nav {
      display: block;
    }
    main {
     flex-grow: 1;
   }
-}
+  body{
+overflow-x: hidden !important;
+
+
+  }
+  #form{
+    display: none;
+  }
+
+
+  nav>ul>li{
+    display:inline;
+
+  }
+  nav li a{
+    display:block;
+
+  }
+
 @media screen and (min-width: 900px) {
   nav > ul > li {
     display: inline-block;
-  }
+}
+body{
+background-position: fixed;
 }
 
+nav>ul>li{
+  display:inline;
+
 }
+nav li a{
+  display:block;
+
+} */
