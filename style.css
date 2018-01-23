@@ -1,7 +1,13 @@
 * {
- box-sizing : border-box;
- margin : 0px;
- padding : 0px;
+  margin: 0;
+  padding: 0;
+  }
+ /* background-position: center;
+ background-size:cover;
+ background-repeat: no-repeat;
+ display: flex;
+ justify-content: center;
+ align-items: center; */
 }
 @font-face {
  font-family: 'Samantha';
@@ -16,7 +22,7 @@ body{
  margin-left: auto;
  margin-right: auto;
  background-image: url("journal-1577764_960_720.png"), url("416549_kozha_zoloto_blesk_treshhiny_tekstura_1680x1050_www.Gde-Fon.com.jpg");
- background-repeat:repeat;
+ background-repeat:repeat-y;
  background-size: contain;
  overflow-x: hidden !important;
  font-family: DACTYLOG;

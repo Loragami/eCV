@@ -1,43 +1,61 @@
-
-/* @media screen and (min-width: 600px) {
-  nav {
-     display: block;
-   }
-   main {
-    flex-grow: 1;
-  }
-  body{
-overflow-x: hidden !important;
-
-
-  }
-  #form{
-    display: none;
-  }
-
-
-  nav>ul>li{
-    display:inline;
-
-  }
-  nav li a{
-    display:block;
-
-  }
-
-@media screen and (min-width: 900px) {
-  nav > ul > li {
-    display: inline-block;
-}
 body{
-background-position: fixed;
+background-image: url("wp2021760.jpg");
+background-size: no-repeat center center fixed;
 }
-
-nav>ul>li{
-  display:inline;
-
+nav {
+  display: none;
 }
-nav li a{
-  display:block;
-
-} */
+.cam{
+  display: none;
+}
+.hid{
+  display: none;
+}
+.bord{
+  display: none;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+#C{
+  display: none;
+}
+#C{
+  height: 0;
+}
+main {
+  flex-grow: 1;
+}
+.footer{
+  text-align: left;
+  margin: 0;
+}
+footer p{
+  text-align: left;
+}
+#E #Experiences{
+  margin-left: -60px;
+}
+.p1p2{
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+.p2{
+  margin-top: 10px;
+}
+.poste{
+ flex-wrap: wrap;
+}
+.postit, .postit2{
+ flex-direction: column;
+ justify-content: space-between;
+}
+.paper img{
+  text-align: left;
+  margin-left: 10px;
+}
+.flexflex1{
+  flex-wrap:wrap !important;
+  justify-content: space-between !important;
+}
